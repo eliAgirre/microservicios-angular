@@ -1,0 +1,53 @@
+<div class="card bg-light mb-3">
+    <div class="card-header">{{ model.id ? 'Editar Alumno' : titulo }}</div>
+    <div class="card-body">
+        <button class="btn btn-secondary my-2" routerLink="/alumnos">Volver</button>
+        <!-- formulario crear alumno-->
+        <form>
+            <!-- Nombre-->
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" class="form-control" id="nombre" [(ngModel)]="model.nombre" />
+                <div class="alert alert-danger" *ngIf="error?.nombre">
+                    {{error.nombre}}
+                </div>
+            </div>
+            <!-- Apellido-->
+            <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" class="form-control" id="apellido" [(ngModel)]="model.apellido" />
+                <div class="alert alert-danger" *ngIf="error && error.apellido">
+                    {{error.apellido}}
+                </div>
+            </div>
+            <!-- Email-->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" id="email" [(ngModel)]="model.email" />
+                <div class="alert alert-danger" *ngIf="error && error.email">
+                    {{error.email}}
+                </div>
+            </div>
+            <!-- input file foto upload -->
+            <div class="form-group"> 
+                <div class="input-group mb-3"> 
+                <div class="input-group-prepend"> 
+                    <span class="input-group-text">Upload</span> 
+                </div> 
+                <div class="custom-file"> 
+                    <input (change)="seleccinarFoto($event)" type="file" class="custom-file-input" id="inputGroupFile01"> 
+                    <label class="custom-file-label" for="inputGroupFile01">Seleccionar foto</label> 
+                </div> 
+                </div> 
+            </div> 
+            <!-- boton crear-->
+            <div class="form-group">
+                <button type="button" class="btn btn-primary" 
+                (click)="model.id ? editar() : crear()" >
+                <!-- si el alumno id existe llama a editar, sino a crear -->
+                    {{ model.id ? 'Editar' : 'Crear' }}
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
