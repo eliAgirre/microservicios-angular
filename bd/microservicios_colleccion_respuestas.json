@@ -1,0 +1,235 @@
+[{
+  "_id": {
+    "$oid": "5f252d1a164c422c5bd89c27"
+  },
+  "texto": "Cristóbal Colón",
+  "alumno": {
+    "_id": 2,
+    "nombre": "John",
+    "apellido": "Doe",
+    "email": "john@gmail.com",
+    "createAt": {
+      "$date": "2020-07-20T18:19:04Z"
+    }
+  },
+  "alumnoId": 2,
+  "pregunta": {
+    "_id": 1,
+    "texto": "¿Quién descubrió Centro América?",
+    "examen": {
+      "_id": 1,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 1,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+},{
+  "_id": {
+    "$oid": "5f252d1a164c422c5bd89c28"
+  },
+  "texto": "Cuzco",
+  "alumno": {
+    "_id": 2,
+    "nombre": "John",
+    "apellido": "Doe",
+    "email": "john@gmail.com",
+    "createAt": {
+      "$date": "2020-07-20T18:19:04Z"
+    }
+  },
+  "alumnoId": 2,
+  "pregunta": {
+    "_id": 3,
+    "texto": "Capital de Imperio Inca",
+    "examen": {
+      "_id": 1,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 3,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+},{
+  "_id": {
+    "$oid": "5f252d1a164c422c5bd89c29"
+  },
+  "texto": "Tenochtitlan",
+  "alumno": {
+    "_id": 2,
+    "nombre": "John",
+    "apellido": "Doe",
+    "email": "john@gmail.com",
+    "createAt": {
+      "$date": "2020-07-20T18:19:04Z"
+    }
+  },
+  "alumnoId": 2,
+  "pregunta": {
+    "_id": 4,
+    "texto": "Capital del imperio Azteca",
+    "examen": {
+      "_id": 1,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 4,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+},{
+  "_id": {
+    "$oid": "5f46c3f713534f74e0af37c9"
+  },
+  "texto": "respondiendo aaa",
+  "alumno": {
+    "_id": 2,
+    "nombre": "John",
+    "apellido": "Doe",
+    "email": "john@gmail.com",
+    "createAt": {
+      "$date": "2020-07-20T18:19:04Z"
+    }
+  },
+  "alumnoId": 2,
+  "pregunta": {
+    "_id": 6,
+    "texto": "aaabbbb",
+    "examen": {
+      "_id": 2,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 6,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+},{
+  "_id": {
+    "$oid": "5f46c3f713534f74e0af37ca"
+  },
+  "texto": "respondiendo bbb",
+  "alumno": {
+    "_id": 2,
+    "nombre": "John",
+    "apellido": "Doe",
+    "email": "john@gmail.com",
+    "createAt": {
+      "$date": "2020-07-20T18:19:04Z"
+    }
+  },
+  "alumnoId": 2,
+  "pregunta": {
+    "_id": 10,
+    "texto": "dddd",
+    "examen": {
+      "_id": 2,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 10,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+},{
+  "_id": {
+    "$oid": "5f46c3f713534f74e0af37cb"
+  },
+  "texto": "respondiendo ccc",
+  "alumno": {
+    "_id": 2,
+    "nombre": "John",
+    "apellido": "Doe",
+    "email": "john@gmail.com",
+    "createAt": {
+      "$date": "2020-07-20T18:19:04Z"
+    }
+  },
+  "alumnoId": 2,
+  "pregunta": {
+    "_id": 11,
+    "texto": "eeee",
+    "examen": {
+      "_id": 2,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 11,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+},{
+  "_id": {
+    "$oid": "6005e5ab984a065bb0cad805"
+  },
+  "texto": "sdfdsfsf",
+  "alumno": {
+    "_id": 15,
+    "nombre": "Juan",
+    "apellido": "Mena",
+    "email": "juan.mena@gmail.com",
+    "createAt": {
+      "$date": "2020-08-03T17:20:38.373Z"
+    }
+  },
+  "alumnoId": 15,
+  "pregunta": {
+    "_id": 6,
+    "texto": "aaabbbb",
+    "examen": {
+      "_id": 2,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 6,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+},{
+  "_id": {
+    "$oid": "6005e5ab984a065bb0cad806"
+  },
+  "texto": "sdfdsfsf",
+  "alumno": {
+    "_id": 15,
+    "nombre": "Juan",
+    "apellido": "Mena",
+    "email": "juan.mena@gmail.com",
+    "createAt": {
+      "$date": "2020-08-03T17:20:38.373Z"
+    }
+  },
+  "alumnoId": 15,
+  "pregunta": {
+    "_id": 10,
+    "texto": "dddd",
+    "examen": {
+      "_id": 2,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 10,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+},{
+  "_id": {
+    "$oid": "6005e5ab984a065bb0cad807"
+  },
+  "texto": "sfsfsdfsf",
+  "alumno": {
+    "_id": 15,
+    "nombre": "Juan",
+    "apellido": "Mena",
+    "email": "juan.mena@gmail.com",
+    "createAt": {
+      "$date": "2020-08-03T17:20:38.373Z"
+    }
+  },
+  "alumnoId": 15,
+  "pregunta": {
+    "_id": 11,
+    "texto": "eeee",
+    "examen": {
+      "_id": 2,
+      "preguntas": [],
+      "respondido": false
+    }
+  },
+  "preguntaId": 11,
+  "_class": "com.proyecto.microservicios.app.respuestas.models.entity.Respuesta"
+}]
