@@ -14,6 +14,8 @@ public class Respuesta {
 	private String id;
 	
 	private String texto;
+	private String resp_alumno;
+	private String resp_correcta;
 
 	//@Transient
 	private Alumno alumno;
@@ -39,6 +41,22 @@ public class Respuesta {
 
 	public void setTexto(String texto) {
 		this.texto = texto;
+	}
+	
+	public String getResp_alumno() {
+		return resp_alumno;
+	}
+
+	public void setResp_alumno(String resp_alumno) {
+		this.resp_alumno = resp_alumno;
+	}
+
+	public String getResp_correcta() {
+		return resp_correcta;
+	}
+
+	public void setResp_correcta(String resp_correcta) {
+		this.resp_correcta = resp_correcta;
 	}
 
 	public Alumno getAlumno() {

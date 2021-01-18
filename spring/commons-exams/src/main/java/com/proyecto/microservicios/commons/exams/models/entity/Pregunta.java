@@ -23,6 +23,11 @@ public class Pregunta {
 	private Long id;
 	
 	private String texto;
+	private String opcion_a;
+	private String opcion_b;
+	private String opcion_c;
+	private String opcion_d;
+	private String resp_correcta;
 	
 	@JsonIgnoreProperties(value = {"preguntas"})
 	@ManyToOne(fetch = FetchType.LAZY)
@@ -43,6 +48,46 @@ public class Pregunta {
 
 	public void setTexto(String texto) {
 		this.texto = texto;
+	}
+	
+	public String getOpcion_a() {
+		return opcion_a;
+	}
+	
+	public void setOpcion_a(String opcion_a) {
+		this.opcion_a = opcion_a;
+	}
+
+	public String getOpcion_b() {
+		return opcion_b;
+	}
+
+	public void setOpcion_b(String opcion_b) {
+		this.opcion_b = opcion_b;
+	}
+
+	public String getOpcion_c() {
+		return opcion_c;
+	}
+
+	public void setOpcion_c(String opcion_c) {
+		this.opcion_c = opcion_c;
+	}
+
+	public String getOpcion_d() {
+		return opcion_d;
+	}
+
+	public void setOpcion_d(String opcion_d) {
+		this.opcion_d = opcion_d;
+	}
+
+	public String getResp_correcta() {
+		return resp_correcta;
+	}
+
+	public void setResp_correcta(String resp_correcta) {
+		this.resp_correcta = resp_correcta;
 	}
 
 	public Examen getExamen() {

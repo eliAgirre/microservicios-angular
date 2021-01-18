@@ -46,10 +46,12 @@ public class Examen {
 	
 	@NotNull
 	@ManyToOne(fetch = FetchType.LAZY)
+	@JsonIgnoreProperties(value = {"handler", "hibernateLazyInitializer"}, allowSetters = true )
 	private Asignatura asignaturaPadre;
 	
 	@NotNull
 	@ManyToOne(fetch = FetchType.LAZY)
+	@JsonIgnoreProperties(value = {"handler", "hibernateLazyInitializer"}, allowSetters = true )
 	private Asignatura asignaturaHija;
 	
 	@Transient
