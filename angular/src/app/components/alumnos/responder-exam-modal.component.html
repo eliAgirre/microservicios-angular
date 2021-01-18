@@ -12,10 +12,25 @@
           </mat-panel-description>
         </mat-expansion-panel-header>
         
+        <mat-list role="list">
+          <mat-list-item role="listitem">{{pregunta.opcion_a}}</mat-list-item><br>
+          <mat-list-item role="listitem">{{pregunta.opcion_b}}</mat-list-item><br>
+          <mat-list-item role="listitem">{{pregunta.opcion_c}}</mat-list-item><br>
+          <mat-list-item role="listitem">{{pregunta.opcion_d}}</mat-list-item>
+        </mat-list>
+        <!--
+        <mat-radio-group aria-label="Selecciona una opción" (change)="responder(pregunta, $event)" formControlName="{{pregunta.opcion_a}}">
+          <mat-radio-button value="a">{{pregunta.opcion_a}}</mat-radio-button><br>
+          <mat-radio-button value="b">{{pregunta.opcion_b}}</mat-radio-button><br>
+          <mat-radio-button value="c">{{pregunta.opcion_c}}</mat-radio-button><br>
+          <mat-radio-button value="d">{{pregunta.opcion_d}}</mat-radio-button>
+        </mat-radio-group>-->
+        
         <mat-form-field style="width: 95%">
             <textarea matInput (change)="responder(pregunta, $event)"
                       placeholder="Deja tu respuesta"></textarea>
         </mat-form-field>
+
       </mat-expansion-panel>
 
 </div>

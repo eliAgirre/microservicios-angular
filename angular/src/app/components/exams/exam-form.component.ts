@@ -122,6 +122,31 @@ export class ExamFormComponent
     console.log(this.model);
   }
 
+  asignarOpcionA(pregunta: Pregunta, event: any): void {
+    pregunta.opcion_a = event.target.value as string;
+    console.log(this.model);
+  }
+
+  asignarOpcionB(pregunta: Pregunta, event: any): void {
+    pregunta.opcion_b = event.target.value as string;
+    console.log(this.model);
+  }
+
+  asignarOpcionC(pregunta: Pregunta, event: any): void {
+    pregunta.opcion_c = event.target.value as string;
+    console.log(this.model);
+  }
+
+  asignarOpcionD(pregunta: Pregunta, event: any): void {
+    pregunta.opcion_d = event.target.value as string;
+    console.log(this.model);
+  }
+
+  asignarRespCorrecta(pregunta: Pregunta, event: any): void {
+    pregunta.resp_correcta = event.target.value as string;
+    console.log(this.model);
+  }
+
   eliminarPregunta(pregunta): void{
     this.model.preguntas = this.model.preguntas.filter(p => pregunta.texto !== p.texto); // se elimina la pregunta del array
   }
