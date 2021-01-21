@@ -1,0 +1,447 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "136489c5-afb3-4544-9c1a-eb38b9ab7d50",
+			"uid": "12136180-136489c5-afb3-4544-9c1a-eb38b9ab7d50",
+			"name": "Respuestas",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"4bc842fa-837b-4fd5-aefd-0ed4649e4b95",
+				"65af5cb0-792a-4b4e-9790-bf276c92f1ff"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2020-07-24T13:51:30.000Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "4bc842fa-837b-4fd5-aefd-0ed4649e4b95",
+					"uid": "12136180-4bc842fa-837b-4fd5-aefd-0ed4649e4b95",
+					"name": "Alumnos",
+					"url": "localhost:8090/api/alumnos",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "136489c5-afb3-4544-9c1a-eb38b9ab7d50",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "65af5cb0-792a-4b4e-9790-bf276c92f1ff",
+					"uid": "12136180-65af5cb0-792a-4b4e-9790-bf276c92f1ff",
+					"name": "Examenes respondidos - alumno 3",
+					"url": "localhost:8090/api/resps/alumno/3/examenes-respondidos",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "136489c5-afb3-4544-9c1a-eb38b9ab7d50",
+					"headers": "",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "3c089593-aacc-4e2e-a024-4d98460a526a",
+			"uid": "12136180-3c089593-aacc-4e2e-a024-4d98460a526a",
+			"name": "Cursos",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"fab538c5-f1c0-4d80-8f7e-53c63e7696e9",
+				"1b76b5f3-5e69-4662-a6b4-700d958d4fd0",
+				"e9398866-fad8-45cf-b1b7-57c079e6fe3d",
+				"0927f41c-e3b7-456b-8e54-b45b34bd431d"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2020-07-23T09:09:59.000Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "0927f41c-e3b7-456b-8e54-b45b34bd431d",
+					"uid": "12136180-0927f41c-e3b7-456b-8e54-b45b34bd431d",
+					"name": "localhost:8090/api/cursos/8",
+					"url": "localhost:8090/api/cursos/8",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "3c089593-aacc-4e2e-a024-4d98460a526a",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "1b76b5f3-5e69-4662-a6b4-700d958d4fd0",
+					"uid": "12136180-1b76b5f3-5e69-4662-a6b4-700d958d4fd0",
+					"name": "POST exams nombre vacio",
+					"url": "localhost:8090/api/exams/",
+					"description": "Microservicios exams",
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "3c089593-aacc-4e2e-a024-4d98460a526a",
+					"rawModeData": "{\r\n    \"nombre\": \"qwegdfgdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\"\r\n}",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "e9398866-fad8-45cf-b1b7-57c079e6fe3d",
+					"uid": "12136180-e9398866-fad8-45cf-b1b7-57c079e6fe3d",
+					"name": "localhost:8090/api/cursos/",
+					"url": "localhost:8090/api/cursos/",
+					"description": "GET Cursos",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "3c089593-aacc-4e2e-a024-4d98460a526a",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "fab538c5-f1c0-4d80-8f7e-53c63e7696e9",
+					"uid": "12136180-fab538c5-f1c0-4d80-8f7e-53c63e7696e9",
+					"name": "POST cursos - eliminar examen",
+					"url": "localhost:8090/api/cursos/7/eliminar-examen",
+					"description": "Microservicios cursos",
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "3c089593-aacc-4e2e-a024-4d98460a526a",
+					"rawModeData": "\r\n    {\r\n        \"id\": 2,\r\n        \"nombre\": \"h\",\r\n        \"createAt\": \"2020-07-23T09:14:05.000+00:00\",\r\n        \"preguntas\": [],\r\n        \"asignatura\": null\r\n    }\r\n",
+					"headers": "",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "4a37ae82-1101-48f0-b3e3-8f368f9fd7cd",
+			"uid": "12136180-4a37ae82-1101-48f0-b3e3-8f368f9fd7cd",
+			"name": "Exams",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"081ecc88-449e-4f8f-88ea-36529414a789",
+				"2a76042d-3756-440c-b2f1-d0ce6b50bd15"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2020-12-26T15:43:28.000Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "081ecc88-449e-4f8f-88ea-36529414a789",
+					"uid": "12136180-081ecc88-449e-4f8f-88ea-36529414a789",
+					"name": "http://localhost:8090/api/exams/3/",
+					"url": "http://localhost:8090/api/exams",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "4a37ae82-1101-48f0-b3e3-8f368f9fd7cd",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "2a76042d-3756-440c-b2f1-d0ce6b50bd15",
+					"uid": "12136180-2a76042d-3756-440c-b2f1-d0ce6b50bd15",
+					"name": "http://localhost:8090/api/exams",
+					"url": "http://localhost:8090/api/exams",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "4a37ae82-1101-48f0-b3e3-8f368f9fd7cd",
+					"headers": "",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "e2f83ff6-ac4d-4a32-8b94-28f8137bbe87",
+			"uid": "12136180-e2f83ff6-ac4d-4a32-8b94-28f8137bbe87",
+			"name": "Asignaturas",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"ebfced81-1d6d-416e-a08c-b95f197d1e59",
+				"64cff358-5bb9-41ca-adc9-c3c899cd0c81"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2020-07-24T12:47:25.000Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "64cff358-5bb9-41ca-adc9-c3c899cd0c81",
+					"uid": "12136180-64cff358-5bb9-41ca-adc9-c3c899cd0c81",
+					"name": "POST - crear - respuestas - alumno",
+					"url": "localhost:8090/api/cursos/7/asignar-alumnos",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "e2f83ff6-ac4d-4a32-8b94-28f8137bbe87",
+					"rawModeData": "[\r\n    {\r\n        \"id\": 3,\r\n        \"nombre\": \"Jose\",\r\n        \"apellido\": \"Doe\",\r\n        \"email\": \"jose@gmail.com\",\r\n        \"createAt\": \"2020-07-21T06:40:38.000+00:00\",\r\n        \"fotoHashCode\": null\r\n    }\r\n]",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "ebfced81-1d6d-416e-a08c-b95f197d1e59",
+					"uid": "12136180-ebfced81-1d6d-416e-a08c-b95f197d1e59",
+					"name": "Asignaturas de los examenes",
+					"url": "localhost:8090/api/exams/asignaturas",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "e2f83ff6-ac4d-4a32-8b94-28f8137bbe87",
+					"headers": "",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "e531202a-3b21-4544-9db7-b1c48bfc1cde",
+			"uid": "12136180-e531202a-3b21-4544-9db7-b1c48bfc1cde",
+			"name": "Alumnos",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"f0e99a90-aba7-4b44-84a1-07b444a73567",
+				"575a6008-37bc-498f-a11e-0ddb7e9e8113"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2020-07-23T09:09:32.000Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "575a6008-37bc-498f-a11e-0ddb7e9e8113",
+					"uid": "12136180-575a6008-37bc-498f-a11e-0ddb7e9e8113",
+					"name": "Crear (POST)  Alumno con foto",
+					"url": "localhost:8090/api/alumnos/uploads/img/13",
+					"description": "Crear Alumno con foto - POST",
+					"data": [
+						{
+							"key": "archivo",
+							"value": "/C:/Users/dev/Downloads/minions.jpg",
+							"description": "",
+							"type": "file",
+							"enabled": true
+						},
+						{
+							"key": "nombre",
+							"value": "Andrés Jose",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "apellido",
+							"value": "Guzmán",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "email",
+							"value": "andres.jose@gmail.com",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "params",
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "e531202a-3b21-4544-9db7-b1c48bfc1cde",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "f0e99a90-aba7-4b44-84a1-07b444a73567",
+					"uid": "12136180-f0e99a90-aba7-4b44-84a1-07b444a73567",
+					"name": "GET alumnos - paginacion",
+					"url": "localhost:8090/api/alumnos/pagina?page=1&size=5",
+					"description": "Microservicios alumnos",
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "page",
+							"value": "1",
+							"equals": true,
+							"description": null,
+							"enabled": true
+						},
+						{
+							"key": "size",
+							"value": "5",
+							"equals": true,
+							"description": null,
+							"enabled": true
+						}
+					],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "e531202a-3b21-4544-9db7-b1c48bfc1cde",
+					"rawModeData": "{\r\n\t\"nombre\":\"Marta\",\r\n\t\"apellido\":\"Castro\",\r\n\t\"email\":\"marta@gmail.com\"\r\n}",
+					"headers": "",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "008f7820-d82a-4e84-a60b-da508fd04f85",
+			"name": "My Workspace - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
